@@ -25,8 +25,9 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 
 ### What is not working?
 
-- **Wi-Fi** (Realtek)
-- **Bluetooth** (Realtek)
-- **Sound**
+**Unsupported devices:**
+
+- **Network:** Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
+- **Sound** Senary Audio (Speakers)
 
 ### Notes
