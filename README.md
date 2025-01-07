@@ -1,6 +1,6 @@
 # OpenCore EFI for Axioo HYPE 7 AMD
 
-My documentation for dual booting Windows 11 with macOS Sequoia on Axioo HYPE 7 with AMD Ryzen™ 7-5700U
+My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7 with AMD Ryzen™ 7-5700U](https://www.axiooworld.com/hype7-amd)
 
 ## Devices Specifications
 
