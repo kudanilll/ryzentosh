@@ -9,7 +9,7 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 - **RAM:** 16GB (8x2) DDR4-3200MHz
 - **Storage:** 512GB M.2 NVMe PCIe Gen 3x4
 - **Drive Model:** SDVPNV2310512TMSB5HK
-- **Wi-Fi:** Realtek RTL8822CE (Not Supported)
+- **Wi-Fi & Bluetooth:** Realtek RTL8822CE (Not Supported)
 - **Ethernet:** None
 - **Audio:** Conexant SN6140 (Not Supported?)
 - **Touchpad:** I2C Interface
@@ -27,7 +27,7 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 
 **Unsupported devices:**
 
-- **Network:** Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
-- **Sound** Senary Audio (Speakers)
+- **Wi-Fi & Bluetooth:** Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
+- **Sound:** Senary Audio (Speakers)
 
 ### Notes
