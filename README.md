@@ -31,3 +31,37 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 - **Sound:** Senary Audio (Speakers)
 
 ### Notes
+
+Use at your own risk. I take no responsiblity if your rig explodes. Create unique SMBios values for your rig. Don't copy ones shown in the config.plist
+
+## Prerequisite
+
+- **USB Drive**
+  - Minimum 32GB for install Sequoia
+  - You can use a 16GB USB drive, but it's not enough to install Sequoia, you can use Sonoma or something older
+- **Image File**
+  - [Sequoia 15](https://etechbox.com/download/macos-sequoia-installer/) (16.76 GB)
+  - [Sonoma 14.4.1](https://etechbox.com/download/macos-sonoma-hackintosh/) (14.90 GB)
+- **Tools**
+  - plist editor, you can use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) or [ProperTree](https://github.com/corpnewt/ProperTree)
+- **Update all drivers on your device to the latest version**
+  - Go to this [link](https://www.axiooworld.com/driver), then enter your part number.
+
+## Getting Started
+
+First step, clone this repo:
+
+```bash
+$ git clone https://github.com/achmaddaniel24/ryzentosh.git ryzentosh
+$ cd ryzentosh
+```
+
+### Create USB Installer
+
+### Create new partition for macOS
+
+## Credits
+
+## Support
+
+If you like my work, you can [buy me a coffee](https://www.buymeacoffee.com/kudanil) and share your thoughts 🎉 ☕
