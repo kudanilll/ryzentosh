@@ -4,7 +4,7 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 
 ## Devices Specifications
 
-- **Processor:** AMD Ryzen 7-5700U
+- **Processor:** AMD Ryzen 7-5700U (Lucienne)
 - **Graphic:** AMD Radeon RX Vega 8
 - **RAM:** 16GB (8x2) DDR4-3200MHz
 - **Storage:** 512GB M.2 NVMe PCIe Gen 3x4
