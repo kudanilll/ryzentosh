@@ -19,7 +19,7 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 - **Bootloader:** [OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg)
 - **Mac Version:** [macOS Sequoia 15](https://dortania.github.io/OpenCore-Legacy-Patcher/SEQUOIA-DROP.html)
 
-[See more using 'Hardware Sniffer'](SPECS.md)
+See more using [Hardware Sniffer](SPECS.md)
 
 ### What is working?
 
@@ -32,7 +32,8 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 
 ### Notes
 
-Use at your own risk. I take no responsiblity if your rig explodes. Create unique SMBios values for your rig. Don't copy ones shown in the config.plist
+- Use at your own risk. I take no responsiblity if your rig explodes.
+- Create unique SMBios values for your rig. Don't copy ones shown in the config.plist
 
 ## Prerequisite
 
@@ -44,6 +45,8 @@ Use at your own risk. I take no responsiblity if your rig explodes. Create uniqu
   - [Sonoma 14.4.1](https://etechbox.com/download/macos-sonoma-hackintosh/) (14.90 GB)
 - **Tools**
   - plist editor, you can use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) or [ProperTree](https://github.com/corpnewt/ProperTree)
+  - [USBToolBox](https://github.com/USBToolBox/tool/releases/tag/0.2) for generate UTBMap.kext
+  - [Balena Etcher](https://etcher.balena.io/#download-etcher) for flash OS images to USB Drive
 - **Update all drivers on your device to the latest version**
   - Go to this [link](https://www.axiooworld.com/driver), then enter your part number.
 
@@ -56,9 +59,19 @@ $ git clone https://github.com/achmaddaniel24/ryzentosh.git ryzentosh
 $ cd ryzentosh
 ```
 
+### USB Mapping
+
+### Generate SMBIOS
+
 ### Create USB Installer
 
 ### Create new partition for macOS
+
+### Modify BIOS Settings
+
+### Installing macOS
+
+### Post-Intall
 
 ## Credits
 
