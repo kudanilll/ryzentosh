@@ -17,11 +17,17 @@ My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7
 - **USB:** AMD Chipset 3.1
 - **Boot Mode:** UEFI
 - **Bootloader:** [OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg)
-- **Mac Version:** [macOS Sequoia 15](https://dortania.github.io/OpenCore-Legacy-Patcher/SEQUOIA-DROP.html)
+- **Mac Version:** [macOS Sequoia 15.2](https://dortania.github.io/OpenCore-Legacy-Patcher/SEQUOIA-DROP.html)
 
 See more using [Hardware Sniffer](SPECS.md)
 
 ### What is working?
+
+- **WiFi:** (Tp-Link Archer T2UB Nano Bluetooth 4.2 Wireless Adapter AC600 usb Adapter)
+- **Camera**
+- **Microphone**
+- **iGPU**
+- **Sleep**
 
 ### What is not working?
 
@@ -29,11 +35,13 @@ See more using [Hardware Sniffer](SPECS.md)
 
 - **Wi-Fi & Bluetooth:** Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC
 - **Sound:** Senary Audio (Speakers)
+- **VDA Decoder:** Failed
+- **Card reader:** Unpatched
 
 ### Notes
 
-- Use at your own risk. I take no responsiblity if your rig explodes.
-- Create unique SMBios values for your rig. Don't copy ones shown in the config.plist
+- **Disclaimer:** Use this documentation at your own risk. I am not responsible for any damage or data loss.
+- **SMBIOS Configuration:** Ensure you generate unique SMBIOS values for your system. Avoid copying the `config.plist` values directly.
 
 ## Prerequisite
 
@@ -41,7 +49,7 @@ See more using [Hardware Sniffer](SPECS.md)
   - Minimum 32GB for install Sequoia
   - You can use a 16GB USB drive, but it's not enough to install Sequoia, you can use Sonoma or something older
 - **Image File**
-  - [Sequoia 15](https://etechbox.com/download/macos-sequoia-installer/) (16.76 GB)
+  - [Sequoia 15.2](https://etechbox.com/download/macos-sequoia-installer/) (16.76 GB)
   - [Sonoma 14.4.1](https://etechbox.com/download/macos-sonoma-hackintosh/) (14.90 GB)
 - **Tools**
   - plist editor, you can use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) or [ProperTree](https://github.com/corpnewt/ProperTree)
@@ -74,6 +82,13 @@ $ cd ryzentosh
 ### Post-Intall
 
 ## Credits
+
+Special thanks to:
+
+- [Acidanthera](https://github.com/acidanthera/)
+- [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [Everything Tech](https://www.youtube.com/@teema.everythingtech)
+- All developers
 
 ## Support
 
