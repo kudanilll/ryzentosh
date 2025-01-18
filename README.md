@@ -2,6 +2,8 @@
 
 My documentation for dual booting Windows 11 with macOS Sequoia on [Axioo HYPE 7 with AMD Ryzen™ 7-5700U](https://www.axiooworld.com/hype7-amd)
 
+![Screenshot](/screenshot.png?raw=true "Screenshot image")
+
 ## Devices Specifications
 
 - **Processor:** AMD Ryzen 7-5700U (Lucienne)
